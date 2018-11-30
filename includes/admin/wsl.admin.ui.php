@@ -2,8 +2,8 @@
 /*!
 * WordPress Social Login
 *
-* https://miled.github.io/wordpress-social-login/ | https://github.com/miled/wordpress-social-login
-*   (c) 2011-2018 Mohamed Mrassi and contributors | https://wordpress.org/plugins/wordpress-social-login/
+* http://miled.github.io/wordpress-social-login/ | https://github.com/miled/wordpress-social-login
+*  (c) 2011-2015 Mohamed Mrassi and contributors | http://wordpress.org/plugins/wordpress-social-login/
 */
 
 /**
@@ -397,7 +397,9 @@ function wsl_admin_welcome_panel()
 				</p>
 
 				<ul style="margin-left:25px;">
-					<li><?php _wsl_e('...', 'wordpress-social-login') ?></li>
+					<li><?php _wsl_e('Update Facebook SDK to 5.4.4', 'wordpress-social-login') ?></li>
+					<li><?php _wsl_e('Update translations files.', 'wordpress-social-login') ?></li>
+					<li><?php _wsl_e('Fix minor issues in gateway page.', 'wordpress-social-login') ?></li>
 				</ul>
 			</td>
 		</tr>
