@@ -1,0 +1,19 @@
+{
+  "name": "reefiki/wordpress-social-login",
+  "description": "Login to WordPress with your social media accounts.",
+  "keywords": ["wordpress", "plugin", "login"],
+  "homepage": "https://clani90.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reefiki",
+      "email": "reefiki@clani90.com",
+      "homepage": "https://clani90.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "^1.4"
+  }
+}
