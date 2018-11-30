@@ -23,7 +23,7 @@ class Hybrid_Providers_Steam extends Hybrid_Provider_Model_OpenID
 	{
 		parent::loginFinish();
 
-		$this->user->profile->identifier = str_ireplace( "http://steamcommunity.com/openid/id/", "", $this->user->profile->identifier );
+		$this->user->profile->identifier = preg_replace('/\D/', '', $this->user->profile->identifier);
 
 		if( ! $this->user->profile->identifier )
 		{
