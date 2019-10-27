@@ -28,6 +28,8 @@ class Hybrid_Providers_TwitchTV extends Hybrid_Provider_Model_OAuth2
 		$this->api->token_url       = "https://api.twitch.tv/kraken/oauth2/token"; 
 
 		$this->api->sign_token_name = "oauth_token";
+
+		$this->api->curl_header = array("Accept: application/vnd.twitchtv.v5+json");
 	}
 
 	/**
